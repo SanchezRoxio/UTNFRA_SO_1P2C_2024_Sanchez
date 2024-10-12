@@ -1,3 +1,4 @@
+#comando para que se seleccione automaticamente los botones al crear las particiones
 
 n
 p
