@@ -1,0 +1,571 @@
+    1  pwd
+    2  cd $HOME
+    3  ll
+    4  mkdir repogit
+    5  ll
+    6  cd repogit/
+    7  git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+    8  ssh-keygen -t ed25519 -C "sanchezmaribel.ro@gmail.com"
+    9  cat ~/.ssh/id_ed25519.pub
+   10  rm -f ~/.ssh/id_ed25519*
+   11  ssh-keygen -t ed25519 -C "sanchezmaribel.ro@gmail.com"
+   12  ls ~/.ssh
+   13  cat ~/.ssh/id_ed25519.pub
+   14  git clone git@github.com:SanchezRoxio/UTNFRA_SO_1P2C_2024_Sanchez.git
+   15  ll
+   16  cd UTNFRA_SO_1P2C_2024_Sanchez/
+   17  ll
+   18  cd
+   19  ll
+   20  cd repogit/
+   21  ./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+   22  source ~/.bashrc && history -a
+   23  ll
+   24  sudo apt update
+   25  sudo apt install tree
+   26  tree UTNFRA_SO_1P2C_2024_Sanchez/
+   27  cd UTNFRA_SO_1P2C_2024_Sanchez/
+   28  ll
+   29  vim README.md
+   30  cat README.md
+   31  cd RTA_SCRIPT_Examen_20241012/
+   32  ll
+   33  vim PUNTO_A.sh
+   34  chmod +x PUNTO_A.sh
+   35  ll
+   36  ./PUNTO_A.sh
+   37  cd ..
+   38  ll
+   39  cd repogit/
+   40  ll
+   41  cd UTN-FRA_SO_Examenes/
+   42  ll
+   43  cd ..
+   44  cd UTNFRA_SO_1P2C_2024_Sanchez/
+   45  ll
+   46  cd RTA_SCRIPT_Examen_20241012/
+   47  ll
+   48  vim PUNTO_A.sh
+   49  ./PUNTO_A.sh
+   50  cd ..
+   51  ll
+   52  cd ..
+   53  ll
+   54  cd ..
+   55  ll
+   56  tree Examenes-UTN/
+   57  cd repogit/
+   58  cd UTNFRA_SO_1P2C_2024_Sanchez/
+   59  ll
+   60  cd RTA_SCRIPT_Examen_20241012/
+   61  ll
+   62  cat PUNTO_A.sh
+   63  vim Punto_A.sh
+   64  rm -f PUNTO_A.sh
+   65  ll
+   66  chmod +x Punto_A.sh
+   67  ll
+   68  vim Punto_B.sh
+   69  cat Punto_B.sh
+   70  chmod 755 Punto_B.sh
+   71  ll
+   72  ./Punto_B.sh
+   73  ll
+   74  git status
+   75  cd ..
+   76  git status
+   77  git add README.md
+   78  git commit -m "ADD: Agrego el README editado."
+   79  git config --global user.email "sanchezmaribel.ro@gmail.com"
+   80  git config --global user.name "Rocio Sanchez"
+   81  git commit -m "ADD: Agrego el README editado."
+   82  git status
+   83  git add RTA_SCRIPT_Examen_20241012/
+   84  git commit -m "ADD: Agrego el Punto A y B."
+   85  git push origin main
+   86  cd ..
+   87  ll
+   88  cd UTNFRA_SO_1P2C_2024_Sanchez/
+   89  ll
+   90  cd RTA_SCRIPT_Examen_20241012/
+   91  ll
+   92  vim Punto_E.sh
+   93  cd ..
+   94  ll
+   95  cd RTA_SCRIPT_Examen_20241012/
+   96  ll
+   97  cd ..
+   98  cd RTA_ARCHIVOS_Examen_20241012/
+   99  ll
+  100  cd ..
+  101  cd RTA_SCRIPT_Examen_20241012/
+  102  ll
+  103  vim Punto_E.sh
+  104  chmod 755 Punto_E.sh
+  105  ./Punto_E.sh
+  106  cd ..
+  107  cd RTA_ARCHIVOS_Examen_20241012/
+  108  ll
+  109  cat Filtro_Basico.txt
+  110  cd ..
+  111  cd RTA_SCRIPT_Examen_20241012/
+  112  ll
+  113  cd ..
+  114  git status
+  115  history -a
+  116  git add .
+  117  git commit -m "ADD: Agrego el punto E."
+  118  git push origin main
+  119  cd RTA_SCRIPT_Examen_20241012/
+  120  ll
+  121  vim Punto_D.sh
+  122  chmod 755 Punto_D.sh
+  123  ll
+  124  ./Punto_D.sh
+  125  tree $HOME/Estructura_Asimetrica/ --noreport | pr -T -s'' -w 80 --column 4
+  126  vim Punto_D.sh
+  127  clear
+  128  cd ..
+  129  git status
+  130  cd ..
+  131  ll
+  132  cd repogit/
+  133  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  134  git add .
+  135  git commit -m "ADD: Agrego el punto D, dentro del mismo se encuentra el TREE para validar la estrucutra creada."
+  136  git push origin main
+  137  history -a
+  138  ll
+  139  cd RTA_SCRIPT_Examen_20241012/
+  140  ll
+  141  vim PUNTO_F.sh
+  142  chmod 755 PUNTO_F.sh
+  143  chmod 755 Punto_F.sh
+  144  vim Punto_F.sh
+  145  chmod 755 Punto_F.sh
+  146  ./Punto_F.sh
+  147  ll
+  148  rm -f PUNTO_F.sh
+  149  ll
+  150  vim Punto_F.sh
+  151  ./Punto_F.sh
+  152  vim Punto_F.sh
+  153  ./Punto_F.sh
+  154  vim Punto_F.sh
+  155  ./Punto_F.sh
+  156  ll
+  157  cd ..
+  158  cd RTA_ARCHIVOS_Examen_20241012/
+  159  ll
+  160  cat Filtro_Avanzado.txt
+  161  ll
+  162  cd ..
+  163  git status
+  164  git add .
+  165  git commit -m "ADD: Agrego Punto F."
+  166  git push origin main
+  167  cd RTA_SCRIPT_Examen_20241012/
+  168  vim Punto_F.sh
+  169  cd ..
+  170  git status
+  171  git add .
+  172  git commit -m "ADD: Agrego correcciones al Punto F."
+  173  git push origin main
+  174  cd RTA_SCRIPT_Examen_20241012/
+  175  vim comandos_fdisk.txt
+  176  cat comandos_fdisk.txt
+  177  cd ..
+  178  git add .
+  179  git commit -m "ADD: Edito el archivo comandos_fdisk."
+  180  git push origin main
+  181  history -a
+  182  pwd
+  183  cd repogit/
+  184  ll
+  185  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  186  ll
+  187  RTA_SCRIPT_Examen_20241012/
+  188  cd RTA_SCRIPT_Examen_20241012/
+  189  ll
+  190  vim Punto_C.sh
+  191  chmod 777 Punto_C.sh
+  192  ./Punto_C.sh
+  193  cd ..
+  194  ll
+  195  cd ..
+  196  ll
+  197  cd Examenes-UTN/
+  198  ll
+  199  cd alumno_1
+  200  ll
+  201  ls -ld /Examenes-UTN/alumno_{1,2,3} /Examenes-UTN/profesores
+  202  clear
+  203  cd ..
+  204  ll
+  205  cd Examenes-UTN/
+  206  cd ..
+  207  cd repogit/
+  208  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  209  ll
+  210  cd RTA_SCRIPT_Examen_20241012/
+  211  ll
+  212  vim Punto_C.sh
+  213  cd ..
+  214  ll
+  215  cd Examenes-UTN/
+  216  ll
+  217  cd alumno_1/
+  218  ll
+  219  ñll
+  220  cd ll
+  221  cd ..
+  222  cd repogit/
+  223  ll
+  224  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  225  ll
+  226  cd RTA_SCRIPT_Examen_20241012/
+  227  ll
+  228  vim Punto_C.sh
+  229  cd ..
+  230  ll
+  231  cd ..
+  232  ll
+  233  cd ..
+  234  ll
+  235  cd Examenes-UTN/
+  236  ll
+  237  cd alumno_1/
+  238  cd ..
+  239  ll
+  240  cd home
+  241  ll
+  242  cd vagrant/
+  243  ll
+  244  cd Examenes-UTN/alumno_1/
+  245  ll
+  246  cd ..
+  247  cd repogit/
+  248  ll
+  249  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  250  cd RTA_SCRIPT_Examen_20241012/
+  251  ll
+  252  vim Punto_C.sh
+  253  ./Punto_C.sh
+  254  vim Punto_C.sh
+  255  ./Punto_C.sh
+  256  vim Punto_C.sh
+  257  cd ..
+  258  ll
+  259  cd ..
+  260  ll
+  261  cd ..
+  262  ll
+  263  cd Examenes-UTN/
+  264  LL
+  265  ll
+  266  cd alumno_1/
+  267  ll
+  268  sudo cat /alumno_1/validar.txt
+  269  cd ..
+  270  ll
+  271  cd home/
+  272  ll
+  273  cd vagrant/
+  274  ll
+  275  tree Estructura_Asimetrica/
+  276  ll
+  277  cd Examenes-UTN/
+  278  ll
+  279  cd alumno_1/
+  280  ll
+  281  cd
+  282  ll
+  283  cd repogit/
+  284  ll
+  285  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  286  ll
+  287  cd RTA_SCRIPT_Examen_20241012/
+  288  cat /Examenes-UTN/alumnos_1/validar.txt
+  289  vim Punto_C.sh
+  290  cat /Examenes_UTN/validar.txt
+  291  cat home/Examenes_UTN/validar.txt
+  292  cat $HOME/Examenes_UTN/validar.txt
+  293  echo $HOME/Examenes_UTN/validar.txt
+  294  echo "$HOME/Examenes_UTN/validar.txt"
+  295  cd ..
+  296  ll
+  297  cd ..
+  298  ll
+  299  cd Examenes-UTN/
+  300  ll
+  301  cd alumno_1
+  302  sudo chmod 777 alumno_1
+  303  cd alumno_1
+  304  ll
+  305  cat validar.txt
+  306  cat /Examenes-UTN/alumno_1/validar.txt
+  307  cd ..
+  308  cat $HOME/Examenes-UTN/alumno_1/validar.txt
+  309  cd ..
+  310  ll
+  311  pwd
+  312  cd home
+  313  cd vagrant/
+  314  cd repogit/UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  315  cat /Examenes-UTN/alumno_1/validar.txt
+  316  vim Punto_C.sh
+  317  cat /Examenes-UTN/alumno_1/validar.txt
+  318  cat /Examenes-UTN/alumno_2/validar.txt
+  319  vim Punto_C.sh
+  320  cat /Examenes-UTN/alumno_1/validar.txt
+  321  cat /Examenes-UTN/alumno_2/validar.txt
+  322  cd ..
+  323  ll
+  324  cd Examenes-UTN/
+  325  ll
+  326  sudo chmod 777 alumno_2
+  327  sudo chmod 777 alumno_3
+  328  sudo chmod 777 profesores
+  329  cat /Examenes-UTN/alumno_1/validar.txt
+  330  cat /Examenes-UTN/alumno_2/validar.txt
+  331  cat /Examenes-UTN/alumno_3/validar.txt
+  332  cat /Examenes-UTN/profesores/validar.txt
+  333  cd ..
+  334  cd home
+  335  cd vagrant/repogit/UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  336  cat /Examenes-UTN/alumno_2/validar.txt
+  337  vim Punto_C.sh
+  338  cd ..
+  339  cd repogit/
+  340  ll
+  341  cd ..
+  342  ll
+  343  rm -rf Examenes-UTN/
+  344  sudo rm -rf Examenes-UTN/
+  345  ll
+  346  cd repogit/
+  347  cd UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  348  vim Punto_C.sh
+  349  cat /Examenes-UTN/alumnos_2/validar.txt
+  350  cat home/Examenes-UTN/alumnos_2/validar.txt
+  351  cat $HOME/Examenes-UTN/alumnos_2/validar.txt
+  352  cd ..
+  353  ll
+  354  cd ..
+  355  cd..
+  356  cd ..
+  357  ll
+  358  cd ..
+  359  ll
+  360  pwd
+  361  cat /Examenes-UTN/alumnos_2/validar.txt
+  362  cd Examenes-UTN/
+  363  cd alumnos_2
+  364  cd alumno_2
+  365  ll
+  366  cat validar.txt
+  367  sudo validar.txt
+  368  sudo rm -f validar.txt
+  369  ll
+  370  cd ..
+  371  cd alumno_1
+  372  sudo rm -f validar.txt
+  373  cd ..
+  374  cd alumno_3
+  375  sudo rm -f validar.txt
+  376  cd ..
+  377  cd profesores/
+  378  sudo rm -f validar.txt
+  379  ll
+  380  cd ..
+  381  cd alumno_2
+  382  ll
+  383  cd ..
+  384  ll
+  385  cd home/
+  386  ll
+  387  cd vagrant/
+  388  ll
+  389  cd repogit/UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  390  ll
+  391  vim Punto_A.sh
+  392  vim Punto_C.sh
+  393  cat /Examenes-UTN/alumnos_2/validar.txt
+  394  cat /Examenes-UTN/alumno_2/validar.txt
+  395  cat ./Examenes-UTN/alumno_2/validar.txt
+  396  cd ..
+  397  ll
+  398  cat /Examenes-UTN/alumno_2/validar.txt
+  399  cd Examenes-UTN/
+  400  cd alumno_1
+  401  ll
+  402  cd ..
+  403  cd root/
+  404  cd home
+  405  cd vagrant/
+  406  ll
+  407  cd repogit/
+  408  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  409  cd RTA_SCRIPT_Examen_20241012/
+  410  ll
+  411  ./Punto_A.sh
+  412  vim Punto_C.sh
+  413  cat /Examenes-UTN/alumno_1/validar.txt
+  414  vim Punto_C.sh
+  415  vim Punto_A.sh
+  416  ./Punto_A.sh
+  417  vim Punto_C.sh
+  418  cat /Examenes-UTN/alumno_1/validar.txt
+  419  cd ..
+  420  ll
+  421  cd ..
+  422  ll
+  423  cd ..
+  424  cd Examenes-UTN/
+  425  ll
+  426  cd alumno_1/
+  427  ll
+  428  cd ..
+  429  cd home/
+  430  cd vagrant/
+  431  ll
+  432  cd Examenes-UTN/
+  433  ll
+  434  cd alumno_
+  435  cd alumno_1
+  436  ll
+  437  cd ..
+  438  ll
+  439  cd repogit/
+  440  cd UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  441  vim Punto_C.sh
+  442  cat /Examenes-UTN/alumno_1/validar.sh
+  443  vim Punto_C.sh
+  444  cat /Examenes-UTN/alumno_1/validar.sh
+  445  cd ..
+  446  cd Examenes-UTN/
+  447  cd alumno_1
+  448  ll
+  449  cd ..
+  450  cd home/vagrant/
+  451  ll
+  452  cd Examenes-UTN/
+  453  ll
+  454  cd alumno_1
+  455  ll
+  456  cd ..
+  457  ll
+  458  cd repogit/
+  459  ll
+  460  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  461  cd RTA_SCRIPT_Examen_20241012/
+  462  ll
+  463  vim Punto_C.sh
+  464  cd ..
+  465  cd..
+  466  cd ..
+  467  ll
+  468  cd ..
+  469  ll
+  470  cd Examenes-UTN/alumno_1
+  471  ll
+  472  cd ..
+  473  Examenes-UTN/
+  474  cd Examenes-UTN/
+  475  ll
+  476  cd alumno_1
+  477  ll
+  478  cd ..
+  479  ll
+  480  sudo rm -rf Examenes-UTN/
+  481  ll
+  482  sudo rm -rf Examenes-UTN
+  483  cd home/vagrant/
+  484  ll
+  485  cd repogit/
+  486  cd UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  487  vim Punto_C.sh
+  488  history
+  489  ./Punto_C.sh
+  490  ./Punto_C.sh
+  491  ./Punto_C.sh
+  492  ./Punto_C.sh
+  493  ./Punto_C.sh
+  494  ./Punto_C.sh
+  495  ./Punto_C.sh
+  496  ./Punto_C.sh
+  497  ./Punto_C.sh
+  498  ./Punto_C.sh
+  499  ./Punto_C.sh
+  500  ./Punto_C.sh
+  501  history
+  502  bash -c "whoami > /Examenes-UTN/alumno_3/validar.txt"
+  503  -- INSERT --          bash -c "whoami > /Examenes-UTN/alumno_3/validar.txt"
+  504  -- INSERT --
+  505  ll
+  506  cd repogit/UTNFRA_SO_1P2C_2024_Sanchez/RTA_SCRIPT_Examen_20241012/
+  507  ll
+  508  vim Punto_C.sh
+  509  ./Punto_C.sh
+  510  vim Punto_C.sh
+  511  vim Punto_Dsh
+  512  vim Punto_D.sh
+  513  vim Punto_C.sh
+  514  sudo -u p1c2_2024_P1 bash -c "whoami > /Examenes-UTN/profesores/validar.txt"
+  515  vim Punto_D.sh
+  516  vim Punto_C.sh
+  517  ./Punto_C.sh
+  518  tree /Examenes-UTN
+  519  sudo /Examenes-UTN
+  520  sudo tree /Examenes-UTN
+  521  history
+  522  history -a
+  523  history -a > Historial_RocioSanchez.txt
+  524  git status
+  525  git add .
+  526  git commit -m "ADD: Subo historial y Punto C."
+  527  git push origin main
+  528  cd ..
+  529  ll
+  530  cd ..
+  531  ll
+  532  cd ..
+  533  ll
+  534  cd vagrant/
+  535  ll
+  536  cd ..
+  537  ll
+  538  cd vagrant/
+  539  ll
+  540  cd repogit/
+  541  ll
+  542  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  543  ll
+  544  vim README.md
+  545  cd ..
+  546  ll
+  547  cd ..
+  548  ll
+  549  cd ..
+  550  ll
+  551  cd home/
+  552  ll
+  553  cd vagrant/
+  554  ll
+  555  sudo rm -rf Examenes-UTN/
+  556  ll
+  557  cd repogit/
+  558  git status
+  559  cd UTNFRA_SO_1P2C_2024_Sanchez/
+  560  git stauts
+  561  git status
+  562  git add .
+  563  git commit -m "ADD: Arreglo el README."
+  564  git push origin main
+  565  hitorial -a
+  566  historial -a
+  567  history -a
+  568  ll
+  569  cd RTA_SCRIPT_Examen_20241012/
+  570  ll
+  571  history
